@@ -9,13 +9,15 @@
 <body>
     <main class="container">
         <h1>Busca Cep</h1>
-        <form action="#">
-            <input type="text" id="input-cep" placeholder="Digite o CEP (Somente números)" maxlength="8" pattern="\d{8}" required><!--maxlenght = Só permite digitar 8 caracteres/ pattern= só permite digitar números-->
+        <form onsubmit="buscarCep(event)">
+            <input type="text" id="cep" placeholder="Digite o CEP (Somente números)" maxlength="8" pattern="\d{8}" required><!--maxlenght = Só permite digitar 8 caracteres/ pattern= só permite digitar números-->
             <button type="submit">Buscar</button>
         </form>
         <div id="resultado" class="resultado">
             
         </div>
     </main>
+
+    <script src="script.js"></script>
 </body>
 </html>

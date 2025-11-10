@@ -14,7 +14,7 @@ body{
 }
 
 .container{
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.911);
     padding: 30px 40px;
     border-radius: 20px;
     box-shadow: 0 20px 25px rgba(0,0,0, 0.6);
@@ -31,7 +31,19 @@ form{
     gap: 10px;
     margin-bottom: 20px;
 }
-#input-cep{
+#cep{
     width: 230px;
     margin-left: 40px;
+    height: 30px;
+    padding-left: 10px;
+    border-radius: 5px;
+    border: solid 1px #271616;
+}
+
+button{
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(38, 85, 240);
+    color: aliceblue;
+    width: 60px;
 }
